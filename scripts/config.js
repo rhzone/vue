@@ -231,7 +231,8 @@ function genConfig (name) {
       file: opts.dest,
       format: opts.format,
       banner: opts.banner,
-      name: opts.moduleName || 'Vue'
+      name: opts.moduleName || 'Vue',
+      sourcemap: true
     },
     onwarn: (msg, warn) => {
       if (!/Circular/.test(msg)) {
