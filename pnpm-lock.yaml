@@ -32,7 +32,7 @@ specifiers:
   eslint-plugin-flowtype: ^2.34.0
   eslint-plugin-jasmine: ^2.8.4
   file-loader: ^3.0.1
-  flow-bin: ^0.175.1
+  flow-bin: ^0.61.0
   hash-sum: ^1.0.2
   he: ^1.1.1
   http-server: ^0.11.1
@@ -108,7 +108,7 @@ devDependencies:
   eslint-plugin-flowtype: 2.50.3_eslint@5.16.0
   eslint-plugin-jasmine: 2.10.1
   file-loader: 3.0.1_webpack@4.46.0
-  flow-bin: 0.175.1
+  flow-bin: 0.61.0
   hash-sum: 1.0.2
   he: 1.2.0
   http-server: 0.11.2
@@ -4113,8 +4113,8 @@ packages:
     resolution: {integrity: sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==}
     dev: true
 
-  /flow-bin/0.175.1:
-    resolution: {integrity: sha512-zMCP0BPa9BrfBSR7QTcyT/XBwzUbyLdNG0eXvBuNxfHCbMRkUzSceRoOaEZIw+R+GH0UHjVfUvPJ30hXxz1Nfw==}
+  /flow-bin/0.61.0:
+    resolution: {integrity: sha512-w6SGi5CDfKLNGzYssRhW6N37qKclDXijsxDQ5M8c3WbivRYta0Horv22bwakegfKBVDnyeS0lRW3OqBC74eq2g==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dev: true

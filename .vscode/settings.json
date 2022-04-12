@@ -1,7 +1,7 @@
 {
   "javascript.validate.enable": false,
   // "debug.openExplorerOnEnd": true,
-  "flow.useNPMPackagedFlow": true,
+  "flow.useLSP": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
