@@ -1,14 +1,22 @@
-
+<template>
+  <div id="main">
+    {{ msg }}
+  </div>
+</template>
 
 <script>
-import Vue from 'vue'
-window.Vue = Vue
+export const data = {
+  msg: 'hi'
+}
 export default {
-  template: '<div>123{{ msg }}</div>',
   data() {
-    return {
-      msg: '123'
-    }
+    return data
+  },
+  created() {
+    window.vm = this;
+  },
+  methods: {
+    
   },
 }
 </script>
