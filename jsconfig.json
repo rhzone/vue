@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "compiler/*": ["./src/compiler/*"],
+      "core/*": ["./src/core/*"],
+      "shared/*": ["./src/shared/*"],
+      "web/*": ["./src/platforms/web/*"],
+      "server/*": ["./src/server/*"],
+      "entries/*": ["./src/entries/*"],
+      "sfc/*": ["./src/sfc/*"]
+    }
+  }
+}

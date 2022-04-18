@@ -1,7 +1,6 @@
 {
   "javascript.validate.enable": false,
   // "debug.openExplorerOnEnd": true,
-  "flow.useLSP": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -13,13 +12,14 @@
     ".github": true,
     "benchmarks": true,
     "test": true,
-    "scripts": true,
+    // "scripts": true,
     "examples": true,
-    "packages": true,
+    // "packages": true,
     "types": true,
     "flow": true,
     "**/node_modules": true,
-    "**/weex*": true
+    "**/weex*": true,
+    "dist": true,
   },
   "search.exclude": {
     "**/node_modules": true,
@@ -27,6 +27,12 @@
     "**/*.code-search": true,
     "dist": true,
   },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "flowide.enabled": true,
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.experimental.fileNesting.enabled": true,
   "explorer.experimental.fileNesting.expand": false,
