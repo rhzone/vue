@@ -1,14 +1,10 @@
-<template>
-  <div id="main">
-    {{ msg }}
-  </div>
-</template>
 
 <script>
 export const data = {
   msg: 'hi'
 }
 export default {
+  name: 'comp',
   data() {
     return data
   },
@@ -18,5 +14,8 @@ export default {
   methods: {
     
   },
+  render(h) {
+    return h('div', this.msg)
+  }
 }
 </script>
